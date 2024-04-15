@@ -1,1 +1,2 @@
 # landing-page
+This project is a basic landing web page. The website will contain a landing page template. The following skills and knowledge will be demonstrated within this project: HTML, The Box Model, Flexbox.
