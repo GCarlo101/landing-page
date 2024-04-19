@@ -10,7 +10,7 @@
     padding-left: 80px;
     padding-right: 80px;
     background-color: #1f2937;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 140px;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@
 .righttop {
     display: flex;
     justify-content: right;
-    margin-bottom: 90px;
+    margin-bottom: 105px;
 }
 
 .leftttop {
@@ -49,7 +49,7 @@
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 115px;
 }
 
 .logo {
@@ -62,11 +62,10 @@
 ul {
     list-style-type: none;
     display: flex;
-    align-items: first baseline;
-  }
+}
 
 li {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 a {
@@ -90,8 +89,8 @@ a {
 .image {
     padding: 50px;
     background-color: #e5e7eb;
-    height: 120px;
-    width: 380px;
+    height:125px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,17 +101,21 @@ a {
     font-size: 18px;
 }
 
-button {
+.button1 {
+    border-color: #1f2937;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
-    padding: 5px;
-    width: 90px;
-    border-radius:6px;
+    padding: 7px;
+    width: 125px;
+    border-radius:7px;
     color: white;
-    border-color: #1f2937;
-    margin-top: 5px;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 17px;
+    border-width: 0px;
 }
 
 .information {
@@ -130,7 +133,7 @@ button {
     font-size: 36px;
     font-weight: 800;
     font-style: bold;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: #1f2937;
 }
 
@@ -154,7 +157,7 @@ button {
     border-style: solid;
     border-width: 5px;
     background-color: white;
-    border-radius: 13px;
+    border-radius: 15px;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
@@ -163,15 +166,15 @@ button {
 
 .subtext {
     color: rgb(73, 73, 73);
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 140px;
-    padding-bottom: 110px;
+    padding: 150px;
+    padding-bottom: 120px;
     justify-content: center;
     align-items: center;
 }
@@ -201,4 +204,63 @@ button {
     font-style: bold;
     font-weight: 800;
     color: #1f2937;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 110px;
+}
+
+.box {
+    background-color: #3882f6;
+    width: 820px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 10px;
+}
+
+.text {
+    font-size: 26px;
+    font-style: bold;
+    font-weight: 800;
+    color: white;
+}
+
+.text2 {
+    font-size: 20px;
+    color: white;
+}
+
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 7px;
+    width: 130px;
+    border-radius:10px;
+    color: white;
+    font-weight: 800;
+    font-style: bold;
+    border-color: white;
+    font-size: 17px;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
 }
