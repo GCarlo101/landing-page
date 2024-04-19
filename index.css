@@ -4,6 +4,7 @@
     padding: 0px;
     border: 0px;
     background-color: white;
+    flex: 1;
 }
 
 .header {
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .left1 {
@@ -74,11 +76,6 @@ a {
     font-size: 18px;
   }
 
-.center {
-    display: flex;
-    margin-top: 100px;
-}
-
 .hero {
     font-size: 48px;
     font-weight: 800;
@@ -127,6 +124,7 @@ a {
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 50px;
+    flex: 1;
 }
 
 .title {
@@ -177,6 +175,7 @@ a {
     padding-bottom: 120px;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .text3 {
@@ -211,6 +210,7 @@ a {
     justify-content: center;
     align-content: center;
     padding: 110px;
+    flex: 1;
 }
 
 .box {
@@ -263,4 +263,5 @@ a {
     color: white;
     padding: 50px;
     font-size: 20px;
+    flex: 1;
 }
